@@ -294,7 +294,7 @@
 							<real>186</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>118 211 788 504 0 0 1024 746 </string>
+						<string>118 210 788 504 0 0 1024 746 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -331,7 +331,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {580, 285}}</string>
 								<key>RubberWindowFrame</key>
-								<string>118 211 788 504 0 0 1024 746 </string>
+								<string>118 210 788 504 0 0 1024 746 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -351,7 +351,7 @@
 								<key>Frame</key>
 								<string>{{0, 290}, {580, 173}}</string>
 								<key>RubberWindowFrame</key>
-								<string>118 211 788 504 0 0 1024 746 </string>
+								<string>118 210 788 504 0 0 1024 746 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
@@ -517,7 +517,7 @@
 		<string>/Users/kehvarl/Development/MapleCode/Hello/Hello.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>118 211 788 504 0 0 1024 746 </string>
+	<string>118 210 788 504 0 0 1024 746 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
