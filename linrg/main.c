@@ -10,9 +10,10 @@ int main (int argc, const char * argv[])
 	double sumXY;
 	
 	n = 0;
+	sumX = sumY = sumX2 = sumY2 = sumXY = 0;
 	do {
 		double	x, y;
-		int		nScanned = scanf("%lg %lg", &x, &y);
+		nScanned = scanf("%lg %lg", &x, &y);
 		if (nScanned == 2) {
 			n++;
 			sumX += x;
@@ -31,7 +32,7 @@ int main (int argc, const char * argv[])
 	double		correlation;
 	correlation = slope * sqrt((n * sumX2 - sumX * sumX)
 							   / (n * sumY2 - sumY * sumY));
-	printf("%g\t%g\t%g\n",	slope,	intercept,	correlation);
+	printf("%g\t%g\t\t%g\n",	slope,	intercept,	correlation);
 	
     return 0;
 }

@@ -4,6 +4,9 @@
 		activeBuildConfigurationName = Debug;
 		activeExecutable = FC6C99FD25C3A8C100FC4454 /* linrg */;
 		activeTarget = 8DD76FA90486AB0100D96B5E /* linrg */;
+		breakpoints = (
+			FC6C9A0D25C3AC9D00FC4454 /* main.c:12 */,
+		);
 		codeSenseManager = FC6C9A0125C3A8E100FC4454 /* Code sense */;
 		executables = (
 			FC6C99FD25C3A8C100FC4454 /* linrg */,
@@ -14,6 +17,13 @@
 		};
 		sourceControlManager = FC6C9A0025C3A8E100FC4454 /* Source Control */;
 		userBuildSettings = {
+		};
+	};
+	08FB7796FE84155DC02AAC07 /* main.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {691, 546}}";
+			sepNavSelRange = "{231, 0}";
+			sepNavVisRange = "{0, 524}";
 		};
 	};
 	8DD76FA90486AB0100D96B5E /* linrg */ = {
@@ -29,12 +39,13 @@
 		argumentStrings = (
 		);
 		autoAttachOnCrash = 1;
-		breakpointsEnabled = 1;
+		breakpointsEnabled = 0;
 		configStateDict = {
 		};
 		customDataFormattersEnabled = 1;
 		debuggerPlugin = GDBDebugging;
 		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
 		enableDebugStr = 1;
 		environmentEntries = (
 		);
@@ -42,8 +53,12 @@
 		executableUserSymbolLevel = 0;
 		libgmallocEnabled = 0;
 		name = linrg;
+		savedGlobals = {
+		};
 		sourceDirectories = (
 		);
+		variableFormatDictionary = {
+		};
 	};
 	FC6C9A0025C3A8E100FC4454 /* Source Control */ = {
 		isa = PBXSourceControlManager;
@@ -55,5 +70,22 @@
 	FC6C9A0125C3A8E100FC4454 /* Code sense */ = {
 		isa = PBXCodeSenseManager;
 		indexTemplatePath = "";
+	};
+	FC6C9A0D25C3AC9D00FC4454 /* main.c:12 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 08FB7796FE84155DC02AAC07 /* main.c */;
+		functionName = "main()";
+		hitCount = 1;
+		ignoreCount = 0;
+		lineNumber = 12;
+		location = linrg;
+		modificationTime = 633580930.123294;
+		state = 2;
 	};
 }
