@@ -1,7 +1,7 @@
 // !$*UTF8*$!
 {
 	08FB7793FE84155DC02AAC07 /* Project object */ = {
-		activeBuildConfigurationName = Debug;
+		activeBuildConfigurationName = Release;
 		activeExecutable = FC6C99FD25C3A8C100FC4454 /* linrg */;
 		activeTarget = 8DD76FA90486AB0100D96B5E /* linrg */;
 		breakpoints = (
@@ -12,18 +12,42 @@
 			FC6C99FD25C3A8C100FC4454 /* linrg */,
 		);
 		perUserDictionary = {
-			PBXPerProjectTemplateStateSaveDate = 633579713;
-			PBXWorkspaceStateSaveDate = 633579713;
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					341,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 633664921;
+			PBXWorkspaceStateSaveDate = 633664921;
 		};
 		sourceControlManager = FC6C9A0025C3A8E100FC4454 /* Source Control */;
 		userBuildSettings = {
+			SYMROOT = /Users/kehvarl/Development/MapleCode/Linear/build;
 		};
 	};
 	08FB7796FE84155DC02AAC07 /* main.c */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {691, 546}}";
-			sepNavSelRange = "{231, 0}";
-			sepNavVisRange = "{0, 524}";
+			sepNavIntBoundsRect = "{{0, 0}, {714, 588}}";
+			sepNavSelRange = "{221, 0}";
+			sepNavVisRange = "{80, 293}";
+			sepNavWindowFrame = "{{276, 188}, {750, 558}}";
 		};
 	};
 	8DD76FA90486AB0100D96B5E /* linrg */ = {
@@ -85,7 +109,7 @@
 		ignoreCount = 0;
 		lineNumber = 12;
 		location = linrg;
-		modificationTime = 633580930.123294;
+		modificationTime = 633580930.1232939;
 		state = 2;
 	};
 }

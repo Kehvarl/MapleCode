@@ -1,0 +1,129 @@
+// !$*UTF8*$!
+{
+	089C1660FE840EACC02AAC07 /* English */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {519, 253}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 45}";
+		};
+	};
+	2A37F4A9FDCFA73011CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = FC6C9A5F25C4F56100FC4454 /* Linear */;
+		activeTarget = 8D15AC270486D014006FF6A4 /* Linear */;
+		addToTargets = (
+			8D15AC270486D014006FF6A4 /* Linear */,
+		);
+		codeSenseManager = FC6C9A7325C4F59E00FC4454 /* Code sense */;
+		executables = (
+			FC6C9A5F25C4F56100FC4454 /* Linear */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					341,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					301,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 633664865;
+			PBXWorkspaceStateSaveDate = 633664865;
+		};
+		sourceControlManager = FC6C9A7225C4F59E00FC4454 /* Source Control */;
+		userBuildSettings = {
+			SYMROOT = /Users/kehvarl/Development/MapleCode/Linear/build;
+		};
+	};
+	8D15AC270486D014006FF6A4 /* Linear */ = {
+		activeExec = 0;
+		executables = (
+			FC6C9A5F25C4F56100FC4454 /* Linear */,
+		);
+	};
+	FC6C9A5F25C4F56100FC4454 /* Linear */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Linear;
+		sourceDirectories = (
+		);
+	};
+	FC6C9A7225C4F59E00FC4454 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	FC6C9A7325C4F59E00FC4454 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	FC6C9A8E25C4F91400FC4454 /* DataPoint.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {519, 350}}";
+			sepNavSelRange = "{393, 0}";
+			sepNavVisRange = "{68, 332}";
+		};
+	};
+	FC6C9A8F25C4F91400FC4454 /* DataPoint.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {519, 882}}";
+			sepNavSelRange = "{553, 0}";
+			sepNavVisRange = "{280, 369}";
+			sepNavWindowFrame = "{{61, 141}, {750, 558}}";
+		};
+	};
+}
