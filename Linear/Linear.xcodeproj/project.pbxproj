@@ -99,8 +99,6 @@
 		2A37F4AAFDCFA73011CA2CEA /* Linear */ = {
 			isa = PBXGroup;
 			children = (
-				FC6C9A9525C4FF3400FC4454 /* Regression.h */,
-				FC6C9A9625C4FF3400FC4454 /* Regression.m */,
 				FC6C9A7F25C4F72300FC4454 /* linrg.xcodeproj */,
 				2A37F4ABFDCFA73011CA2CEA /* Classes */,
 				2A37F4AFFDCFA73011CA2CEA /* Other Sources */,
@@ -114,6 +112,8 @@
 		2A37F4ABFDCFA73011CA2CEA /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				FC6C9A9525C4FF3400FC4454 /* Regression.h */,
+				FC6C9A9625C4FF3400FC4454 /* Regression.m */,
 				FC6C9A8E25C4F91400FC4454 /* DataPoint.h */,
 				FC6C9A8F25C4F91400FC4454 /* DataPoint.m */,
 				2A37F4AEFDCFA73011CA2CEA /* MyDocument.h */,
