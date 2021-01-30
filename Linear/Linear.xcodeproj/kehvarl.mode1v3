@@ -268,6 +268,7 @@
 								<string>2A37F4AAFDCFA73011CA2CEA</string>
 								<string>2A37F4ABFDCFA73011CA2CEA</string>
 								<string>2A37F4B8FDCFA73011CA2CEA</string>
+								<string>1DDD58280DA1D0D100B32029</string>
 								<string>1C37FBAC04509CD000000102</string>
 								<string>FC6C9A9C25C513C400FC4454</string>
 								<string>1C37FABC05509CD000000102</string>
@@ -275,8 +276,8 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>15</integer>
-									<integer>10</integer>
+									<integer>7</integer>
+									<integer>2</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -316,7 +317,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>Regression.h</string>
+								<string>Info.plist</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -324,20 +325,21 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>Regression.h</string>
+										<string>Info.plist</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>FC6C9ABE25C513C400FC4454</string>
+										<string>FC6C9ACD25C5311A00FC4454</string>
 										<key>history</key>
 										<array>
-											<string>FC6C9A9D25C513C400FC4454</string>
-											<string>FC6C9A9E25C513C400FC4454</string>
 											<string>FC6C9A9F25C513C400FC4454</string>
 											<string>FC6C9AA025C513C400FC4454</string>
 											<string>FC6C9AA125C513C400FC4454</string>
 											<string>FC6C9AA225C513C400FC4454</string>
-											<string>FC6C9AA325C513C400FC4454</string>
+											<string>FC6C9AC625C5311A00FC4454</string>
+											<string>FC6C9AC725C5311A00FC4454</string>
+											<string>FC6C9AC825C5311A00FC4454</string>
+											<string>FC6C9AC925C5311A00FC4454</string>
 										</array>
 										<key>prevStack</key>
 										<array>
@@ -367,6 +369,9 @@
 											<string>FC6C9ABB25C513C400FC4454</string>
 											<string>FC6C9ABC25C513C400FC4454</string>
 											<string>FC6C9ABD25C513C400FC4454</string>
+											<string>FC6C9ACA25C5311A00FC4454</string>
+											<string>FC6C9ACB25C5311A00FC4454</string>
+											<string>FC6C9ACC25C5311A00FC4454</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -560,6 +565,7 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>FC6C9ACE25C5311A00FC4454</string>
 		<string>/Users/kehvarl/Development/MapleCode/Linear/Linear.xcodeproj</string>
 	</array>
 	<key>WindowString</key>

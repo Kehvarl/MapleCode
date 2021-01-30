@@ -101,17 +101,34 @@
 			FC6C9ABC25C513C400FC4454 /* PBXTextBookmark */ = FC6C9ABC25C513C400FC4454 /* PBXTextBookmark */;
 			FC6C9ABD25C513C400FC4454 /* PBXTextBookmark */ = FC6C9ABD25C513C400FC4454 /* PBXTextBookmark */;
 			FC6C9ABE25C513C400FC4454 /* PBXTextBookmark */ = FC6C9ABE25C513C400FC4454 /* PBXTextBookmark */;
+			FC6C9AC625C5311A00FC4454 /* PBXTextBookmark */ = FC6C9AC625C5311A00FC4454 /* PBXTextBookmark */;
+			FC6C9AC725C5311A00FC4454 /* PBXTextBookmark */ = FC6C9AC725C5311A00FC4454 /* PBXTextBookmark */;
+			FC6C9AC825C5311A00FC4454 /* PBXTextBookmark */ = FC6C9AC825C5311A00FC4454 /* PBXTextBookmark */;
+			FC6C9AC925C5311A00FC4454 /* PBXBookmark */ = FC6C9AC925C5311A00FC4454 /* PBXBookmark */;
+			FC6C9ACA25C5311A00FC4454 /* PBXTextBookmark */ = FC6C9ACA25C5311A00FC4454 /* PBXTextBookmark */;
+			FC6C9ACB25C5311A00FC4454 /* PBXTextBookmark */ = FC6C9ACB25C5311A00FC4454 /* PBXTextBookmark */;
+			FC6C9ACC25C5311A00FC4454 /* PBXTextBookmark */ = FC6C9ACC25C5311A00FC4454 /* PBXTextBookmark */;
+			FC6C9ACD25C5311A00FC4454 /* PlistBookmark */ = FC6C9ACD25C5311A00FC4454 /* PlistBookmark */;
 		};
 		sourceControlManager = FC6C9A7225C4F59E00FC4454 /* Source Control */;
 		userBuildSettings = {
 			SYMROOT = /Users/kehvarl/Development/MapleCode/Linear/build;
 		};
 	};
+	2A37F4ACFDCFA73011CA2CEA /* MyDocument.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1164, 1036}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1198}";
+			sepNavWindowFrame = "{{15, 58}, {750, 683}}";
+		};
+	};
 	2A37F4AEFDCFA73011CA2CEA /* MyDocument.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {519, 253}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 203}";
+			sepNavIntBoundsRect = "{{0, 0}, {691, 555}}";
+			sepNavSelRange = "{272, 0}";
+			sepNavVisRange = "{0, 279}";
+			sepNavWindowFrame = "{{15, 58}, {750, 683}}";
 		};
 	};
 	8D15AC270486D014006FF6A4 /* Linear */ = {
@@ -179,9 +196,9 @@
 	};
 	FC6C9A9625C4FF3400FC4454 /* Regression.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {519, 2646}}";
+			sepNavIntBoundsRect = "{{0, 0}, {691, 2030}}";
 			sepNavSelRange = "{2546, 0}";
-			sepNavVisRange = "{1794, 583}";
+			sepNavVisRange = "{0, 866}";
 			sepNavWindowFrame = "{{0, 63}, {750, 683}}";
 		};
 	};
@@ -524,5 +541,80 @@
 		rType = 0;
 		vrLen = 307;
 		vrLoc = 156;
+	};
+	FC6C9AC625C5311A00FC4454 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FC6C9A9525C4FF3400FC4454 /* Regression.h */;
+		name = "Regression.h: 12";
+		rLen = 0;
+		rLoc = 158;
+		rType = 0;
+		vrLen = 307;
+		vrLoc = 156;
+	};
+	FC6C9AC725C5311A00FC4454 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 089C1660FE840EACC02AAC07 /* English */;
+		name = "InfoPlist.strings: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 45;
+		vrLoc = 0;
+	};
+	FC6C9AC825C5311A00FC4454 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2A37F4BAFDCFA73011CA2CEA /* English */;
+		name = "English: 2";
+		rLen = 0;
+		rLoc = 16;
+		rType = 0;
+		vrLen = 226;
+		vrLoc = 0;
+	};
+	FC6C9AC925C5311A00FC4454 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 8D15AC360486D014006FF6A4 /* Info.plist */;
+	};
+	FC6C9ACA25C5311A00FC4454 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FC6C9A9525C4FF3400FC4454 /* Regression.h */;
+		name = "Regression.h: 12";
+		rLen = 0;
+		rLoc = 158;
+		rType = 0;
+		vrLen = 307;
+		vrLoc = 156;
+	};
+	FC6C9ACB25C5311A00FC4454 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 089C1660FE840EACC02AAC07 /* English */;
+		name = "InfoPlist.strings: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 45;
+		vrLoc = 0;
+	};
+	FC6C9ACC25C5311A00FC4454 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2A37F4BAFDCFA73011CA2CEA /* English */;
+		name = "English: 2";
+		rLen = 0;
+		rLoc = 16;
+		rType = 0;
+		vrLen = 226;
+		vrLoc = 0;
+	};
+	FC6C9ACD25C5311A00FC4454 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D15AC360486D014006FF6A4 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/kehvarl/Development/MapleCode/Linear/Info.plist;
+		rLen = 0;
+		rLoc = 2147483647;
 	};
 }

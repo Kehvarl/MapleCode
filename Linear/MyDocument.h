@@ -9,7 +9,12 @@
 
 #import <Cocoa/Cocoa.h>
 
+@class Regression;
 @interface MyDocument : NSDocument
 {
+	Regression * model;
 }
+
+- (IBAction compute: (id) sender;
 @end
+
