@@ -15,6 +15,6 @@
 	Regression * model;
 }
 
-- (IBAction compute: (id) sender;
+- (IBAction) compute: (id) sender;
 @end
 

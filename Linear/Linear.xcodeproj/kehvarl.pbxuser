@@ -109,6 +109,9 @@
 			FC6C9ACB25C5311A00FC4454 /* PBXTextBookmark */ = FC6C9ACB25C5311A00FC4454 /* PBXTextBookmark */;
 			FC6C9ACC25C5311A00FC4454 /* PBXTextBookmark */ = FC6C9ACC25C5311A00FC4454 /* PBXTextBookmark */;
 			FC6C9ACD25C5311A00FC4454 /* PlistBookmark */ = FC6C9ACD25C5311A00FC4454 /* PlistBookmark */;
+			FC6C9AD025C531B500FC4454 /* PlistBookmark */ = FC6C9AD025C531B500FC4454 /* PlistBookmark */;
+			FC6C9AD125C531B500FC4454 /* PlistBookmark */ = FC6C9AD125C531B500FC4454 /* PlistBookmark */;
+			FC6C9AD225C531B500FC4454 /* PBXTextBookmark */ = FC6C9AD225C531B500FC4454 /* PBXTextBookmark */;
 		};
 		sourceControlManager = FC6C9A7225C4F59E00FC4454 /* Source Control */;
 		userBuildSettings = {
@@ -125,9 +128,9 @@
 	};
 	2A37F4AEFDCFA73011CA2CEA /* MyDocument.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {691, 555}}";
-			sepNavSelRange = "{272, 0}";
-			sepNavVisRange = "{0, 279}";
+			sepNavIntBoundsRect = "{{0, 0}, {519, 294}}";
+			sepNavSelRange = "{251, 0}";
+			sepNavVisRange = "{20, 260}";
 			sepNavWindowFrame = "{{15, 58}, {750, 683}}";
 		};
 	};
@@ -616,5 +619,37 @@
 		name = /Users/kehvarl/Development/MapleCode/Linear/Info.plist;
 		rLen = 0;
 		rLoc = 2147483647;
+	};
+	FC6C9AD025C531B500FC4454 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D15AC360486D014006FF6A4 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/kehvarl/Development/MapleCode/Linear/Info.plist;
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	FC6C9AD125C531B500FC4454 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D15AC360486D014006FF6A4 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/kehvarl/Development/MapleCode/Linear/Info.plist;
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	FC6C9AD225C531B500FC4454 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2A37F4AEFDCFA73011CA2CEA /* MyDocument.h */;
+		name = "MyDocument.h: 18";
+		rLen = 0;
+		rLoc = 251;
+		rType = 0;
+		vrLen = 260;
+		vrLoc = 20;
 	};
 }
