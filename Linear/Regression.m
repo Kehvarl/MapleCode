@@ -8,6 +8,9 @@
 
 #import "Regression.h"
 
+NSString * const LinearInternalErrorDomain =
+			@"org.manoverboard.Linear.ErrorDomain";
+
 
 @implementation Regression
 

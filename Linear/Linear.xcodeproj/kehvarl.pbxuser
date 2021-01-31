@@ -118,6 +118,9 @@
 			FC6C9AD725C6569200FC4454 /* PBXTextBookmark */ = FC6C9AD725C6569200FC4454 /* PBXTextBookmark */;
 			FC6C9AD825C6569200FC4454 /* PBXTextBookmark */ = FC6C9AD825C6569200FC4454 /* PBXTextBookmark */;
 			FC6C9ADB25C6569200FC4454 /* PBXTextBookmark */ = FC6C9ADB25C6569200FC4454 /* PBXTextBookmark */;
+			FC6C9ADD25C656AE00FC4454 /* PBXBookmark */ = FC6C9ADD25C656AE00FC4454 /* PBXBookmark */;
+			FC6C9ADE25C656E000FC4454 /* PBXTextBookmark */ = FC6C9ADE25C656E000FC4454 /* PBXTextBookmark */;
+			FC6C9AE125C656E000FC4454 /* PBXTextBookmark */ = FC6C9AE125C656E000FC4454 /* PBXTextBookmark */;
 		};
 		sourceControlManager = FC6C9A7225C4F59E00FC4454 /* Source Control */;
 		userBuildSettings = {
@@ -205,9 +208,9 @@
 	};
 	FC6C9A9625C4FF3400FC4454 /* Regression.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {691, 2030}}";
-			sepNavSelRange = "{2546, 0}";
-			sepNavVisRange = "{0, 866}";
+			sepNavIntBoundsRect = "{{0, 0}, {691, 2212}}";
+			sepNavSelRange = "{222, 0}";
+			sepNavVisRange = "{0, 924}";
 			sepNavWindowFrame = "{{0, 63}, {750, 683}}";
 		};
 	};
@@ -266,7 +269,7 @@
 		fRef = FC6C9A9625C4FF3400FC4454 /* Regression.m */;
 		name = "Regression.m: 97";
 		rLen = 0;
-		rLoc = 2546;
+		rLoc = 2635;
 		rType = 0;
 		vrLen = 583;
 		vrLoc = 1794;
@@ -416,7 +419,7 @@
 		fRef = FC6C9A9625C4FF3400FC4454 /* Regression.m */;
 		name = "Regression.m: 14";
 		rLen = 0;
-		rLoc = 186;
+		rLoc = 275;
 		rType = 0;
 		vrLen = 193;
 		vrLoc = 0;
@@ -436,7 +439,7 @@
 		fRef = FC6C9A9625C4FF3400FC4454 /* Regression.m */;
 		name = "Regression.m: 21";
 		rLen = 0;
-		rLoc = 863;
+		rLoc = 952;
 		rType = 0;
 		vrLen = 246;
 		vrLoc = 34;
@@ -486,7 +489,7 @@
 		fRef = FC6C9A9625C4FF3400FC4454 /* Regression.m */;
 		name = "Regression.m: 17";
 		rLen = 0;
-		rLoc = 286;
+		rLoc = 375;
 		rType = 0;
 		vrLen = 323;
 		vrLoc = 184;
@@ -506,7 +509,7 @@
 		fRef = FC6C9A9625C4FF3400FC4454 /* Regression.m */;
 		name = "Regression.m: 17";
 		rLen = 0;
-		rLoc = 286;
+		rLoc = 375;
 		rType = 0;
 		vrLen = 323;
 		vrLoc = 184;
@@ -536,7 +539,7 @@
 		fRef = FC6C9A9625C4FF3400FC4454 /* Regression.m */;
 		name = "Regression.m: 97";
 		rLen = 0;
-		rLoc = 2546;
+		rLoc = 2635;
 		rType = 0;
 		vrLen = 583;
 		vrLoc = 1794;
@@ -710,6 +713,30 @@
 		rLoc = 407;
 		rType = 0;
 		vrLen = 409;
+		vrLoc = 0;
+	};
+	FC6C9ADD25C656AE00FC4454 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = FC6C9A9625C4FF3400FC4454 /* Regression.m */;
+	};
+	FC6C9ADE25C656E000FC4454 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2A37F4ACFDCFA73011CA2CEA /* MyDocument.m */;
+		name = "MyDocument.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 327;
+		vrLoc = 0;
+	};
+	FC6C9AE125C656E000FC4454 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FC6C9A9625C4FF3400FC4454 /* Regression.m */;
+		name = "Regression.m: 12";
+		rLen = 0;
+		rLoc = 222;
+		rType = 0;
+		vrLen = 924;
 		vrLoc = 0;
 	};
 }
