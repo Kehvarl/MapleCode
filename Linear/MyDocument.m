@@ -15,11 +15,28 @@
     self = [super init];
     if (self) {
     
-        // Add your subclass-specific initialization here.
-        // If an error occurs here, send a [self release] message and return nil.
+        // Allocate and initialize our model.
+		model = [[Regression alloc] init];
+		it (!model) {
+			[self release];
+			self = nil;
     
-    }
+		}
+	}
     return self;
+}
+
+
+- (IBAction) computer: (id) sender
+{
+#pragma unused(sender)
+	[model computeWithLinrg];
+}
+	
+- (void) dealloc
+{
+	[model release];
+	[super dealloc];
 }
 
 - (NSString *)windowNibName
@@ -37,30 +54,70 @@
 
 - (NSData *)dataOfType:(NSString *)typeName error:(NSError **)outError
 {
-    // Insert code here to write your document to data of the specified type. If the given outError != NULL, ensure that you set *outError when returning nil.
-
-    // You can also choose to override -fileWrapperOfType:error:, -writeToURL:ofType:error:, or -writeToURL:ofType:forSaveOperation:originalContentsURL:error: instead.
-
-    // For applications targeted for Panther or earlier systems, you should use the deprecated API -dataRepresentationOfType:. In this case you can also choose to override -fileWrapperRepresentationOfType: or -writeToFile:ofType: instead.
-
-    if ( outError != NULL ) {
-		*outError = [NSError errorWithDomain:NSOSStatusErrorDomain code:unimpErr userInfo:NULL];
+    // Produce the data lump:
+	NSData * retval = [NSKeyedArchiver
+						archiveDataWithRootOpbject: model];
+	// If the lump is nil, something went wrong.
+	// Fill out the error object to explain what went wrong.
+	if (outError != NULL) {
+		// The sender wanted an error reported. If there
+		// was a problem, fill in an NSError object.
+		if (retval == nil) {
+			//The error object should include an (nhelpful)
+			//explanation of what happened.
+			NSDictionary * userInfoDict = [NSDictionary
+										dictionaryWithObjectsAndKeys:
+										   @"Internal error formatting data",
+										   NSLocalizedDescriptionKey,
+										   @"Archiving of data failed. Probably a bug.",
+										   NSLocalizedFailureReasonErrorKey,
+										   @"There's nothing you can do",
+										   NSLocalizedRecoverySuggestionErrorKey,
+										   nil];
+			//Create the actual error object.
+			*outError = 
+				[NSError	errorWithDomain: LinearInternalErrorDomain
+							code: linErrCantFormatDocumentData
+							userInfo: userInfoDict];
+		}
+		else {
+			//No problem.  Don't supply an error object
+			*outError = nil;
+		}
 	}
-	return nil;
+	return retval;
 }
 
 - (BOOL)readFromData:(NSData *)data ofType:(NSString *)typeName error:(NSError **)outError
 {
-    // Insert code here to read your document from the given data of the specified type.  If the given outError != NULL, ensure that you set *outError when returning NO.
-
-    // You can also choose to override -readFromFileWrapper:ofType:error: or -readFromURL:ofType:error: instead. 
-    
-    // For applications targeted for Panther or earlier systems, you should use the deprecated API -loadDataRepresentation:ofType. In this case you can also choose to override -readFromFile:ofType: or -loadFileWrapperRepresentation:ofType: instead.
-    
-    if ( outError != NULL ) {
-		*outError = [NSError errorWithDomain:NSOSStatusErrorDomain code:unimpErr userInfo:NULL];
+#pragma unused (typename)
+	//Using the NSCoding rules we supplied in the classes.
+	// extract the Regression and Datapoint objects from the lump.
+	model = [NSKeyedUnarchiver unarchiveObjectWithData: data];
+	[model retain];
+	
+	if(model){
+		//Nothing went wrong.  Report success and no error.
+		if (outerError != NULL)
+			*outerError = nil;
+		return YES;
 	}
-    return YES;
+	else {
+		if (outerError != NULL){
+			NSDictionary * userInfoDict = [NSDictionary
+									dictionaryWithObjectsAndKeys:
+										   @"Internal error decoding data.",
+										   NSLocalizedFailureReasonErrorKey,
+										   @"Unarchiving of data failed.  Probably a bug.",
+										   NSLocalizedRecoverySuggestionErrorKey,
+										   nil];
+			*outError =
+				[NSError errorWithDomain: LinearInternalErrorDomain
+									code: linErrCantDecodeDocumentData
+								userInfo: userInfoDict];
+		}
+		return NO;
+	}
 }
 
 @end

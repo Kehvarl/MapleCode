@@ -18,3 +18,9 @@
 - (IBAction) compute: (id) sender;
 @end
 
+extern NSString * const LinearInternalErrorDomain;
+enum{
+	linErrCantFormatDocumentData = 1000,
+	linErrCantDecodeDocumentData
+};
+
