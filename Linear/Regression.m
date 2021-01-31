@@ -24,6 +24,7 @@ NSString * const LinearInternalErrorDomain =
 	return self;
 }
 
+
 - (double) slope { return slope; }
 - (void) setSlope: (double) aSlope { slope = aSlope; }
 

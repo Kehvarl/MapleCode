@@ -25,8 +25,15 @@
 	}
     return self;
 }
+
+
+- (IBAction) computer: (id) sender
+{
+#pragma unused(sender)
+	[model computeWithLinrg];
+}
 	
-- (voide) dealloc
+- (void) dealloc
 {
 	[model release];
 	[super dealloc];
